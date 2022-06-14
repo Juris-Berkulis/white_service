@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
     <title>Белый Сервис</title>
     <script src="./scripts/style.js" defer></script>
+    <script src="./scripts/moveSpecialistsSlider.js" defer></script>
 </head>
 <body>
     <section class="section header">
@@ -286,14 +287,14 @@
             <h2 class="specialists__title">Ремонт осуществляется<br>первоклассными специалистами</h2>
             <p class="specialists__description">Средний опыт работы наших мастеров 4 года</p>
             <div class="specialists__slider">
-                <button class="specialists__sliderBtn specialists__sliderBtn_left">
+                <button class="specialists__sliderBtn specialists__sliderBtn_left" onclick="previousSpecialist()">
                     <div class="specialists__sliderBtnSvgWrapper">
                         <svg width="100%" height="100%" viewBox="0 0 10 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M8 2L3 7L8 12" stroke="black" stroke-width="3"/>
                         </svg>
                     </div>
                 </button>
-                <button class="specialists__sliderBtn specialists__sliderBtn_right">
+                <button class="specialists__sliderBtn specialists__sliderBtn_right" onclick="nextSpecialist()">
                     <div class="specialists__sliderBtnSvgWrapper">
                         <svg width="100%" height="100%" viewBox="0 0 10 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M2 12L7 7L2 2" stroke="black" stroke-width="3"/>
@@ -308,7 +309,7 @@
                             </div>
                             <p class="specialists__sliderCardName">Илья</p>
                             <div class="specialists__sliderCardDescriptionWrapper">
-                                <p class="specialists__sliderCardDescription">Мастер по ремонту, опыт 5 лет.<br>В «Белом Сервисе» с июля 2020</p>
+                                <p class="specialists__sliderCardDescription">Мастер по ремонту, опыт 5 лет. В «Белом Сервисе» с июля 2020</p>
                             </div>
                             <div class="specialists__sliderCardExperienceWrapper">
                                 <img class="specialists__sliderCardExperienceImg" src="./img/image/icons/icon_tick.png" alt="tick" width="24px">
@@ -325,7 +326,7 @@
                             </div>
                             <p class="specialists__sliderCardName">Александр</p>
                             <div class="specialists__sliderCardDescriptionWrapper">
-                                <p class="specialists__sliderCardDescription">Мастер по ремонту, опыт 4,5 года.<br>В «Белом Сервисе» с августа 2020</p>
+                                <p class="specialists__sliderCardDescription">Мастер по ремонту, опыт 4,5 года. В «Белом Сервисе» с августа 2020</p>
                             </div>
                             <div class="specialists__sliderCardExperienceWrapper">
                                 <img class="specialists__sliderCardExperienceImg" src="./img/image/icons/icon_tick.png" alt="tick" width="24px">
@@ -335,7 +336,7 @@
                                 <div class="specialists__sliderCardCommentTriangle"></div>
                                 <p class="specialists__sliderCardComment">Верну к жизни, как самые первые модели, так и новинки смартфонов.</p>
                             </div>
-                            </div>
+                        </div>
                         <div class="specialists__sliderCard">
                             <div class="specialists__sliderCardPhotoWrapper">
                                 <img class="specialists__sliderCardPhoto" src="./img/image/specialists/specialist_Andrey.jpg" alt="photo" width="223px">
@@ -359,7 +360,7 @@
                             </div>
                             <p class="specialists__sliderCardName">Дмитрий</p>
                             <div class="specialists__sliderCardDescriptionWrapper">
-                                <p class="specialists__sliderCardDescription">Мастер по ремонту, опыт 9 лет.<br>В «Белом Сервисе» с марта 2020</p>
+                                <p class="specialists__sliderCardDescription">Мастер по ремонту, опыт 9 лет. В «Белом Сервисе» с марта 2020</p>
                             </div>
                             <div class="specialists__sliderCardExperienceWrapper">
                                 <img class="specialists__sliderCardExperienceImg" src="./img/image/icons/icon_tick.png" alt="tick" width="24px">
