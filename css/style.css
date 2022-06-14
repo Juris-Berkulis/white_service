@@ -522,13 +522,14 @@ button {
   display: flex;
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
 }
 
 .specialists__sliderCard {
-  width: 356px;
+  width: 355px;
+  min-width: 355px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -539,6 +540,7 @@ button {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-right: 31px;
   padding: 80px 0;
 }
 
