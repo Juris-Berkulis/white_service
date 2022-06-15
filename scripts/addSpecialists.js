@@ -96,26 +96,26 @@ const addSpecialists = () => {
 
         sliderCardsWrapper.append(specialists__sliderCard);
     }
+
+    {/** Пример:
+    <div class="specialists__sliderCard">
+        <div class="specialists__sliderCardPhotoWrapper">
+            <img class="specialists__sliderCardPhoto" src="./img/image/specialists/specialist_Iliya.jpg" alt="photo" width="223px">
+        </div>
+        <p class="specialists__sliderCardName">Илья</p>
+        <div class="specialists__sliderCardDescriptionWrapper">
+            <p class="specialists__sliderCardDescription">Мастер по ремонту, опыт 5 лет. В «Белом Сервисе» с июля 2020</p>
+        </div>
+        <div class="specialists__sliderCardExperienceWrapper">
+            <img class="specialists__sliderCardExperienceImg" src="./img/image/icons/icon_tick.png" alt="tick" width="24px">
+            <p class="specialists__sliderCardExperienceText">Более 4 800 выполненных работ</p>
+        </div>
+        <div class="specialists__sliderCardCommentWrapper">
+            <div class="specialists__sliderCardCommentTriangle"></div>
+            <p class="specialists__sliderCardComment">Определю любую причину поломки!</p>
+        </div>
+    </div> 
+    */}
 };
 
 addSpecialists();
-
-{/** 
-<div class="specialists__sliderCard">
-    <div class="specialists__sliderCardPhotoWrapper">
-        <img class="specialists__sliderCardPhoto" src="./img/image/specialists/specialist_Iliya.jpg" alt="photo" width="223px">
-    </div>
-    <p class="specialists__sliderCardName">Илья</p>
-    <div class="specialists__sliderCardDescriptionWrapper">
-        <p class="specialists__sliderCardDescription">Мастер по ремонту, опыт 5 лет. В «Белом Сервисе» с июля 2020</p>
-    </div>
-    <div class="specialists__sliderCardExperienceWrapper">
-        <img class="specialists__sliderCardExperienceImg" src="./img/image/icons/icon_tick.png" alt="tick" width="24px">
-        <p class="specialists__sliderCardExperienceText">Более 4 800 выполненных работ</p>
-    </div>
-    <div class="specialists__sliderCardCommentWrapper">
-        <div class="specialists__sliderCardCommentTriangle"></div>
-        <p class="specialists__sliderCardComment">Определю любую причину поломки!</p>
-    </div>
-</div> 
-*/}

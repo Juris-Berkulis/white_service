@@ -1,28 +1,3 @@
-// const getMaxHeight = (elementsList) => {
-//     const elementsArr = Array.prototype.map.call(elementsList, (item) => item.clientHeight);
-
-//     const maxHeight = Math.max(...elementsArr);
-
-//     return maxHeight
-// };
-
-// const setHeightForAllListElements = (newHeight, elementsList) => {
-//     Array.prototype.forEach.call(elementsList, (item) => item.style.height = `${newHeight}px`);
-// };
-
-// const findAllElementsByClass = (className) => {
-//     const elementsList = document.getElementsByClassName(className);
-
-//     const maxHeight = getMaxHeight(elementsList);
-
-//     setHeightForAllListElements(maxHeight, elementsList);
-// };
-
-// findAllElementsByClass('specialists__sliderCardDescriptionWrapper');
-
-
-
-
 const getMaxHeight = (elementsArray) => {
     const elementsHeightsArray = elementsArray.map((item) => item.clientHeight);
 
