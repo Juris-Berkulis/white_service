@@ -782,6 +782,11 @@ button {
   margin-bottom: 30px;
 }
 
+.serviceCenter__cellWrapper_2,
+.serviceCenter__cellWrapper_3 {
+  height: 448px;
+}
+
 .serviceCenter__cellWrapper_setFirst {
   -webkit-box-ordinal-group: 0;
       -ms-flex-order: -1;
@@ -970,6 +975,10 @@ button {
     width: 526px;
     height: 537px;
   }
+  .serviceCenter__cellWrapper_2,
+  .serviceCenter__cellWrapper_3 {
+    height: 487px;
+  }
   .serviceCenter__title {
     font-size: 50px;
   }
@@ -1024,6 +1033,7 @@ button {
     margin-left: 87px;
   }
   .title {
+    width: 331px;
     font-size: 50px;
     margin-bottom: 40px;
   }
@@ -1245,6 +1255,9 @@ button {
   .main__left {
     width: 331px;
     margin-left: 59px;
+  }
+  .title {
+    width: 100%;
   }
   .main__description {
     width: 310px;
@@ -1628,6 +1641,7 @@ button {
   }
   .serviceCenter__title {
     font-size: 26px;
+    text-align: center;
     margin-bottom: 32px;
   }
   .serviceCenter__infoDescription_last {
