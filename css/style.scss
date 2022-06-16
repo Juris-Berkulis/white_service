@@ -481,6 +481,7 @@ button {
     border-radius: 50em;
     background-color: #ffffff;
     z-index: 5;
+    border: 1px solid #e5e5e5;
     cursor: pointer;
 }
 
@@ -1079,6 +1080,10 @@ button {
         height: 10px;
     }
 
+    .specialists__sliderBtnSvg {
+        transform: translateY(-2px);
+    }
+
     .specialists__sliderCard {
         width: 265px;
         min-width: 265px;
@@ -1290,6 +1295,10 @@ button {
 
     .specialists__description {
         font-size: 16px;
+    }
+
+    .specialists__sliderBtnSvg {
+        transform: translateY(-2px);
     }
 
     .specialists__sliderBtn {
@@ -1588,6 +1597,10 @@ button {
     .specialists__sliderBtnSvgWrapper {
         width: 6px;
         height: 9px;
+    }
+
+    .specialists__sliderBtnSvg {
+        transform: translateY(-2.5px);
     }
 
     .specialists__sliderCard {
