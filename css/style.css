@@ -217,6 +217,8 @@ button {
 }
 
 .header__phoneNumber {
+  text-decoration: none;
+  color: #000000;
   line-height: 20px;
 }
 
@@ -839,7 +841,7 @@ button {
           transform: translate(-50%, -50%);
 }
 
-@media (max-width: 1920px) {
+@media (max-width: 1919px) {
   .section {
     padding: 0 calc(50% - 1366px / 2);
   }
@@ -998,7 +1000,7 @@ button {
   }
 }
 
-@media (max-width: 1366px) {
+@media (max-width: 1365px) {
   .section {
     padding: 0 calc(50% - 1024px / 2);
   }
@@ -1226,7 +1228,7 @@ button {
   }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1023px) {
   .section {
     padding: 0 calc(50% - 768px / 2);
   }
@@ -1367,7 +1369,7 @@ button {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   ::-webkit-scrollbar {
     width: 3px;
     height: 0;
@@ -1454,6 +1456,7 @@ button {
             justify-content: flex-start;
     width: 100%;
     margin: 24px 0;
+    padding-bottom: 24px;
     border-bottom: 2px solid #F6F6F6;
   }
   .header__btnArrow {
